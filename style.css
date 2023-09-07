@@ -119,7 +119,7 @@ footer {
 
 @media screen and (max-width: 500px) {
     .buttomBarDetails .boxes p {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     footer {
