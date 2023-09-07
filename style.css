@@ -49,6 +49,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     border-radius: 0px 3rem 0px 0px;
+
 }
 
 .buttomBarDetails .boxes {
@@ -60,7 +61,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 20px;
+    padding: 140px 140px;
 }
 
 .buttomBarDetails .boxes p {
