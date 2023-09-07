@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #313131;
+    color: #FFFFFF;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif
+}
+
+.heading {
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 3vh 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 3rem 3rem 3rem 3rem;
+}
+
+.gifbox {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #414141;
+    border-radius: 3rem 0px 0px 0px;
+}
+
+.gif {
+    height: 35rem;
+}
+
+.buttomBarDetails {
+    width: 50vw;
+    background-color: #414141;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 0px 3rem 0px 0px;
+}
+
+.buttomBarDetails .boxes {
+    width: 45vw;
+    height: 18vh;
+    background-color: #616161;
+    margin: 1vh 0px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.buttomBarDetails .boxes p {
+    color: #ededed;
+}
+
+.point {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .box {
+        display: block;
+    }
+
+    .gifbox {
+        width: 100vw;
+        border-radius: 3rem 3rem 0px 0px;
+
+    }
+
+    .gif {
+        height: 30rem;
+    }
+
+    .buttomBarDetails {
+        width: 100vw;
+        flex-wrap: wrap;
+        border-radius: 0px;
+    }
+
+    .buttomBarDetails .boxes {
+        width: 80vw;
+        height: 30vh;
+    }
+}
