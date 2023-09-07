@@ -53,7 +53,7 @@ body {
 
 .buttomBarDetails .boxes {
     width: 45vw;
-    height: 18vh;
+    height: 16vh;
     background-color: #616161;
     margin: 1vh 0px;
     border-radius: 2rem;
@@ -74,7 +74,20 @@ body {
     font-size: 1.2rem;
 }
 
+
+footer {
+    background-color: #515151;
+    padding: 20px 20px;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+
 @media screen and (max-width: 1000px) {
+    body {
+        overflow: scroll;
+    }
+
     .box {
         display: block;
     }
@@ -93,10 +106,22 @@ body {
         width: 100vw;
         flex-wrap: wrap;
         border-radius: 0px;
+        display: flex;
+        justify-content: center;
     }
 
     .buttomBarDetails .boxes {
         width: 80vw;
         height: 30vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .buttomBarDetails .boxes p {
+        font-size: 13px;
+    }
+
+    footer {
+        margin-bottom: 20px;
     }
 }
