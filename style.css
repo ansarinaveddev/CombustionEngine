@@ -113,12 +113,13 @@ footer {
     .buttomBarDetails .boxes {
         width: 80vw;
         height: 30vh;
+        padding: 30px 30px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .buttomBarDetails .boxes p {
-        font-size: 13px;
+        font-size: 10px;
     }
 
     footer {
